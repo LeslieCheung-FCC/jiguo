@@ -1,0 +1,36 @@
+{
+    "data":[
+        {
+            "img":"../img/k3.jpg",
+            "h2":"Mozbii触控吸色笔",
+            "h3":"能吸取6500种颜色",
+            "price":"￥暂无",
+            "goodone":"3",
+            "goodtwo":"3"
+        },
+        {
+            "img":"../img/k4.jpg",
+            "h2":"XPLORER 2航拍飞行器",
+            "h3":"搭载自动避障系统",
+            "price":"￥433",
+            "goodone":"3",
+            "goodtwo":"3"
+        },
+        {
+      "img":"../img/k1.jpg",
+      "h2":"SCIO微型光谱仪",
+      "h3":"可以测定食物成分及营养",
+      "price":"￥1212",
+      "goodone":"3",
+      "goodtwo":"3"
+    },{
+        "img":"../img/k2.jpg",
+        "h2":"B&O Beosound 35 音响",
+        "h3":"支持所有音乐流媒体服务",
+        "price":"￥512",
+        "goodone":"3",
+        "goodtwo":"3"
+    }
+]
+
+}

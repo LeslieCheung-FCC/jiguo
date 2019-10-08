@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    font-family: "Microsoft YaHei",SimHei,"微软雅黑","黑体";
+    line-height: 1.6;
+}
+a{
+    text-decoration:none;
+    color:#333;
+    }
+button{
+    border: 0;
+ 
+    background-color: transparent;
+     
+    outline: none;
+    }
+header{
+    width: 100%;
+    height: 68px;
+    border-bottom: 1px solid #cccccc; 
+    /* background-color: pink; */
+}
+.container{
+    width: 1000px;
+    height: 68px;
+    margin: 0 auto;
+    /* background:skyblue; */
+}
+.logo_left{
+    width: 132px;
+    height: 68px;  
+    float: left; 
+    margin-top: 7px;
+}
+.index{
+    width: 490px;
+    height: 68px;
+    float: left;
+     margin-left: 15px;
+    /* background-color:pink; */
+    overflow: hidden;
+}
+.index>ul>a>li{
+    float: left;
+    width: 90px;
+    height: 32px;
+    font-size: 20px;
+    margin-top:29px 
+}
+.index>ul>a:first-child{
+    color: red;
+}
+.index>ul>a:hover{
+    color: red;
+    cursor: pointer;
+}
+.search{
+    width: 24px;
+    height: 26px;
+    float: left;
+    /* background-color: red; */
+    margin:25px 0 0 235px;
+    transition: all 1s;
+}
+.reg{
+    width: 52px;
+    height: 32px;
+    float: left;
+    /* background-color: red; */
+    margin:20px 0 0 50px;
+}
+.reg button{
+    width: 52px;
+    height: 32px;
+    border: 1px solid red;
+    border-radius: 3px;
+    color: red;   
+}
+.reg button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.6s;
+    background: orange;
+ 
+}
+/* --------------内容--------------- */
+section{
+    margin-top: 50px;
+}
+section .container{
+    width: 1000px;
+    height: 500px;
+    /* overflow: hidden;     */
+    /* background-color: pink; */
+
+}
+.container .small{
+    width: 270px;
+    height: 319px;
+    background-color:#F3F3F3;
+    float: left;
+}
+h2{
+    /* display: inline-block; */
+    width:230px;
+    height: 50px;
+    border-bottom: 1px solid #333; 
+    margin: 0 auto;
+    padding-left:18px ;
+    color: #444444;
+}
+.ul_one{
+   padding:10px 18px;   
+}
+.ul_two{
+    padding:10px 18px; 
+}
+.li_2{
+    font-weight: 700;
+    color: #444444;
+}
+.li_1{
+    padding-left: 15px; 
+}
+.big_container{
+    width: 700px;
+    height: 1000px;
+    margin-left:25px ; 
+    background-color:#F3F3F3;
+    float: left; 
+    margin-bottom: 30px;
+}
+.big p{
+    line-height: 1.8;
+}
+.big{
+    padding: 25px 33px;
+    color: #444444;
+}
+.big h1{
+    width: 634px;
+    border-bottom: 1px solid #333; 
+    color: #444444;
+    padding-left:18px ;
+    margin: 0 auto;
+}
+.big h3{
+    font-size: 16px;
+    padding: 25px 0 20px;
+    font-weight: bold;
+}
+.big h5{
+        font-size: 20px;
+        padding: 18px 0 16px;
+        font-weight: bold;
+}
+.big .emall{
+    padding-left: 25px;
+}
+ 
+
+/* --------------脚注-------------- */
+footer{
+    width: 100%;
+    height: 360px;
+    background-color: #505050;
+    padding: 40px 0 15px 0; 
+    box-sizing: border-box;
+    overflow: hidden;
+ }
+  footer .container{
+     width: 1000px;
+     height: 360px;
+     /* background: red; */
+    
+ }
+ .QR{
+     float: left;
+ }
+ .foot{
+     width: 1000px;
+     height: 360px;
+     /* background: pink;   */
+  
+ }
+ .foot a {
+     color: #a3a3a3;
+     font-size: 13px;
+ }
+ .fix{
+     width: 1000px;
+     height: 205px;
+ }
+ dl{
+     float: left;
+     padding-left: 22px;
+     line-height: 20px;
+     color: #a3a3a3;
+     padding-bottom: 25px;
+ 
+ }
+ 
+ dd{
+     width: 146px;
+     /* height: 40px; */
+     font-size: 13px;
+ }
+ .dd{
+     margin-top: 13px;
+     /* color: aliceblue */    
+ }
+ dt{
+     height: 45px;
+     padding: 0px 0px 15px;
+     color: #F7F7F7;
+ }
+ dt:hover{
+     cursor: pointer;
+ }
+ .dd1{
+     width: 180px;
+ }
+ .comp{
+     text-align: center;
+     padding-top: 80px;
+     font-size: 13px;
+     color: #a3a3a3;
+ }

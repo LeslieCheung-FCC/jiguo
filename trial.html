@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/trial.css">
+    <link rel="stylesheet" href="css/public.css">
+</head>
+<body>
+<header>
+    <div class="intext">
+        <div><img src="img/logonew.png" alt=""></div>
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="play/play.html">酷玩</a></li>
+            <li><a href="guide/guide.html">导购</a></li>
+            <li><a href="trial.html" class="zc">试用</a></li>
+            <li><a href="./index/14.taste.html">报告</a></li>
+        </ul>
+        <div>
+            <span></span>
+            <span><a href="./index/16.login.html" class="zc">注册</a></span>
+        </div>
+    </div>
+</header>
+<div class="big-box">
+    <div class="head">
+        <h1>免费试用</h1>
+        <div class="trial-tab">
+            <div class="left">大众试用</div>
+            <div class="right">体验师专享</div>
+        </div>
+        <div class="trial-class">
+            <div class="all">全部</div>
+            <div class="apply">申请中</div>
+            <div class="in">试用中</div>
+            <div class="out">已结束</div>
+        </div>
+    </div>
+
+
+</div>
+<div class="content">
+    <div class="left-box">
+        <div class="all-box">
+            <div class="container">
+                <ul id="list">
+                </ul>
+            </div>
+            <div class="more">
+                点击加载更多
+            </div>
+        </div>
+        <div class="apply-box">
+            <div class="container">
+                <ul id="list2">
+                </ul>
+            </div>
+            <div class="no-more">
+                哎呀，没有更多了
+            </div>
+        </div>
+        <div class="in-box">
+            <div class="container">
+                <ul id="list3">
+                </ul>
+            </div>
+            <div class="no-more">
+                哎呀，没有更多了
+            </div>
+        </div>
+        <div class="out-box">
+            <div class="container">
+                <ul id="list4">
+                </ul>
+            </div>
+            <div class="no-more">
+                哎呀，没有更多了
+            </div>
+        </div>
+    </div>
+    <div class="right-box">
+        <div class="teacher-box">
+            <div class="container">
+                <ul id="list5">
+                </ul>
+                <div class="no-more">
+                    哎呀，没有更多了
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<footer>
+    <div class="infot">
+        <div>
+            <img src="img/code.png" alt="">
+        </div>
+        <div>
+            <p></p>
+            <ul>
+                <li>全球酷玩试用导航平台酷.新奇.好玩.品质</li>
+                <li>微信添加"JguoJguo"获取我们的服务。</li>
+            </ul>
+        </div>
+        <div>
+            <h3><a href="trialdetails.html" style="color: white">免费试用</a></h3>
+            <ul>
+                <li><a href="help.html">试用流程</a></li>
+                <li>如何提高成功率</li>
+            </ul>
+        </div>
+        <div>
+            <h3>友情链接</h3>
+            <ul>
+                <li><a href="#">智东西</a></li>
+                <li><a href="#">搜狐IT</a></li>
+                <li><a href="#">搜狐数码</a></li>
+                <li><a href="#">凤凰数码</a></li>
+                <li><a href="#">泡泡网</a></li>
+                <li><a href="#">ZUK社区</a></li>
+                <li><a href="#">极客公园</a></li>
+                <li><a href="#">果库</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">WEIBUSI</a></li>
+                <li><a href="#">腾讯科技</a></li>
+                <li><a href="#">凤凰科技</a></li>
+                <li><a href="#">PCconline</a></li>
+                <li><a href="#">PCconline3W咖啡</a></li>
+                <li><a href="#">亿觅emie</a></li>
+                <li><a href="#">易迅易启玩</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>购买攻略</h3>
+            <ul>
+                <li><a href="#">美亚海淘教程</a></li>
+                <li><a href="#">日亚海淘教程</a></li>
+                <li><a href="#">海淘转运攻略</a></li>
+                <li><a href="#">kickstarter 众筹购买攻略</a></li>
+                <li><a href="#">indiegogo 众筹购买攻略</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3><a href="about.html" style="color: white">厂商合作</a></h3>
+            <ul>
+                <li><a href="#">关于极果</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">商务合作：BD&copy;jiguo.com</a></li>
+                <li><a href="#">CEO邮箱：CEO&copy;jiguo.com</a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <p>&copy; 2016 极果版权所有</p>
+    </div>
+</footer>
+</body>
+<script id="listtmpl" type="text/x-dot-template">
+    {{~it:value:index}}
+    <li>
+        <img src="{{=value.img}}" alt="">
+        <h2>巴慕达 The Toaster 烤面包机</h2>
+        <div class="con">
+            {{?value.out}}
+            <span class="gray">{{=value.num}}</span>
+            <span class="gray">{{=value.tai}}台</span>
+            {{??value.in}}
+            <span class="red">{{=value.num}}</span>
+            <span class="red">{{=value.tai}}台</span>
+            {{??}}
+            <span class="green">{{=value.num}}</span>
+            <span class="green">{{=value.tai}}台</span>
+            {{?}}
+        </div>
+        <p class="apply">
+            {{?value.apply}}
+            <span>{{=value.apply}}</span>
+            {{??}}
+            <span>0</span>
+            {{?}}
+            申请
+        </p>
+        <p class="other">
+            {{?value.title}}
+            <span class="first">{{=value.title}}</span>
+            {{??}}
+            <span class="vip">{{=value.vip}}</span>
+            {{?}}
+        </p>
+        <p class="day">
+            <span>{{=value.day}}</span>
+        </p>
+    </li>
+    {{~}}
+</script>
+<script src="doT.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+<script src="js/trial.js"></script>
+</html>

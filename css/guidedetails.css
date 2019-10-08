@@ -1,0 +1,97 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #F7F7F7;
+}
+section .container{
+    width: 1000px;
+    margin: 0 auto;
+}
+section .container>h1{
+    height: 50px;
+    line-height: 50px;
+    color: rgb(177, 175, 175);
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+}
+.content{      
+    display: flex;
+    justify-content: space-between;
+}
+.content .loveshare{
+    width: 270px;
+    height: 110px;
+    background-color: white;
+    display: flex;
+     border: 1px  solid rgb(235, 233, 233);
+     border-radius:5px; 
+     overflow: hidden;
+}
+.content .loveshare .love{
+    width: 135px;
+    height: 110px;
+    color: rgb(184, 180, 180);
+    text-align: center;
+    padding-top: 60px;
+    background: url('../img/xinRedo.png') no-repeat center 30px;
+}
+.content .loveshare .share{
+    width: 135px;
+    height: 110px;   
+    border-left:1px  solid rgb(235, 233, 233);  
+    color: rgb(184, 180, 180);
+    padding-top: 60px;
+    text-align: center;
+    background: url('../img/share_yj1.png') no-repeat center 30px;
+    position: relative;
+}
+.content .text{
+    width: 700px; 
+   background-color: white; 
+}
+.textheader{
+    width: 100%;
+    height: 126px;
+    border-bottom: #ccc solid 1px;
+    padding: 30px 25px 0;
+    box-sizing: border-box;
+}
+.textheader>h1{
+  font-size: 28px;
+  font-weight: 500;
+}
+.textheader .namedate{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: #999;
+}
+.text .textbody{
+    padding: 25px;
+    box-sizing: border-box;
+}
+.text .textbody>h1{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.text .textbody>p{
+    margin-bottom: 26px;
+    line-height: 24px;
+}
+.text .textfoot{
+  padding-bottom:30px; 
+}
+.text .textfoot>p{
+    text-indent: 25px;
+    color: #999;
+}
+#sharebox{
+  margin: 5px auto;
+  width: 92px;
+}

@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    color:#333;
+    }
+button{
+    border: 0;
+ 
+    background-color: transparent;
+     
+    outline: none;
+    }
+header{
+    width: 100%;
+    height: 68px;
+    /* background-color: pink; */
+}
+.container{
+    width: 1000px;
+    height: 68px;
+    margin: 0 auto;
+    /* background:skyblue; */
+}
+.logo_left{
+    width: 132px;
+    height: 68px;  
+    float: left; 
+    margin-top: 7px;
+}
+.index{
+    width: 490px;
+    height: 68px;
+    float: left;
+     margin-left: 15px;
+    /* background-color:pink; */
+    overflow: hidden;
+}
+.index>ul>a>li{
+    float: left;
+    width: 90px;
+    height: 32px;
+    font-size: 20px;
+    margin-top:29px 
+}
+.index>ul>a:nth-child(5){
+    color: red;
+}
+.index>ul>a:hover{
+    color: red;
+    cursor: pointer;
+}
+.search{
+    width: 24px;
+    height: 26px;
+    float: left;
+    /* background-color: red; */
+    margin:25px 0 0 235px;
+    transition: all 1s;
+}
+.reg{
+    width: 52px;
+    height: 32px;
+    float: left;
+    /* background-color: red; */
+    margin:20px 0 0 50px;
+}
+.reg button{
+    width: 52px;
+    height: 32px;
+    border: 1px solid red;
+    border-radius: 3px;
+    color: red;   
+}
+.reg button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.6s;
+    background: orange;
+ 
+}
+/* ------------------------内容-------------------------------- */
+.title{
+    width: 1000px;
+    height: 128px;
+    margin: 0 auto;
+}
+.title h1{
+    text-align: center;
+    padding: 34px 0 30px;
+    font-size: 40px;
+    font-weight: 500;
+}
+nav{
+    width: 1000px;
+    height: 43px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.7;
+}
+nav a{
+    width: 165px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+}
+#New{
+    border-bottom: 4px #fe5431 solid;
+    padding-bottom: 8px;
+    color: #fe5431;
+}
+.buttom{
+    width: 100%;
+    height: 2800px;
+    background-color:#F7F7F7;
+}
+.bottom_container{
+    width: 1000px;
+    height: 2750px;
+    margin: 0 auto;
+    /* background-color: pink; */
+    padding-top:25px; 
+    overflow: hidden;
+}
+.bottom_right{
+    float: left;
+}
+.ul .lis{
+    position: relative;
+}
+.lis .imgs{
+    border-radius: 6px;
+    vertical-align: top;
+}
+.info{
+    width: 700px;
+    height: 119px;
+    background: rgba(255,255,255,.9);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 10px 22px;
+    border-radius:  0  0 6px;
+}
+.info:hover{
+    
+}
+.lis .titles{
+        font-size: 18px;
+        padding: 9px 0 12px;
+        font-weight: normal;
+        color: #a3a3a3;
+}
+.lis .a_ .info span{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.btm_fix{
+    font-size: 13px;
+    padding: 16px 0 11px;
+}
+ .btm_left .avt {
+    background: url(./../img/img/tx.jpg) no-repeat;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.btm_left .name{
+    color: #fe695a;   
+}
+.btm_left .time{
+    color: #a3a3a3;
+}
+.btm_right{
+    float: right;
+}
+.btm_right .look{
+    display: inline;
+    background: url(./../img/img/zan.png) no-repeat left 2px;
+    padding-left:15px ;
+    color: #a3a3a3;
+
+}
+.btm_right .zoo{
+    display: inline;
+    background: url(./../img/img/xin.png) no-repeat left 2px;
+    padding-left:15px ;
+    color: #a3a3a3;
+}
+ .midd_look {
+    width: 700px;
+    height: 48px;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    font-size: 14px;
+    border: 1px solid #E6E9E9;
+    border-radius: 6px;
+    margin:15px 0 ;
+    background-color: #F5F5F5;
+    color: #a3a3a3;
+}
+.bottom_rights{
+    width: 270px;
+    height: 435px;
+    /* background-color: pink; */
+    float: left;
+    margin-left: 28px;
+    position: relative;
+}
+.title_h2{
+    font-size: 18px;
+    padding-left:30px;
+    font-weight: 500;
+ 
+}
+.red{
+    width: 6px;
+    height: 25px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+}
+.pho{
+    padding-top:15px;
+}
+.info_ h5{
+    font-size: 16px;
+    padding: 5px 0;
+    color: #474747
+}
+.info_ .text{
+    font-size: 14px;
+    color: #a3a3a3;
+}
+.bottom_down{
+    float: left;
+    width: 270px;
+    height:265px ;
+    padding-top:40px; 
+    margin-left: 28px;
+    position: relative;
+}
+.reds{
+    width: 6px;
+    height: 25px;
+    background-color: red;
+    position: absolute;
+    top: 40px;
+}
+.phos{
+   padding-top: 20px; 
+}
+
+
+
+
+/* ------------------------脚部------------------------------- */
+footer{
+   width: 100%;
+   height: 360px;
+   background-color: #505050;
+   padding: 40px 0 15px 0; 
+   box-sizing: border-box;
+   overflow: hidden;
+}
+ footer .container{
+    width: 1000px;
+    height: 360px;
+    /* background: red; */
+   
+}
+.QR{
+    float: left;
+}
+.foot{
+    width: 1000px;
+    height: 360px;
+    /* background: pink;   */
+}
+.foot a {
+    color: #a3a3a3;
+    font-size: 13px;
+}
+.fix{
+    width: 1000px;
+    height: 205px;
+}
+dl{
+    float: left;
+    padding-left: 22px;
+    line-height: 20px;
+    color: #a3a3a3;
+    padding-bottom: 25px;
+
+}
+
+dd{
+    width: 146px;
+    /* height: 40px; */
+    font-size: 13px;
+}
+.dd{
+    margin-top: 13px;
+    /* color: aliceblue */    
+}
+dt{
+    height: 45px;
+    padding: 0px 0px 15px;
+}
+.dd1{
+    width: 180px;
+}
+.comp{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 13px;
+    color: #a3a3a3;
+}
+
+
+

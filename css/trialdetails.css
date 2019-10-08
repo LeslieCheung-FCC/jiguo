@@ -1,0 +1,374 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.zc{
+    color: #ff5a2e;
+}
+
+
+/*顶部banner图*/
+.banner {
+    width: 100%;
+    height: 300px;
+    background: url("../img/original.jpg") no-repeat -185px;
+    position: relative;
+}
+@keyframes big {
+    0%{
+        transform: translateX(150px) translateY(-150px) scale(1.5);
+    }
+    100%{
+        transform: translateX(0) translateY(0) scale(1);
+    }
+}
+.title {
+    width: 320px;
+    height: 210px;
+    position: absolute;
+    right: 210px;
+    top: 47px;
+    color: #fff;
+    animation: big 0.8s;
+
+}
+
+.title h1 {
+    font-weight: 500;
+    text-align: center;
+}
+
+.title span {
+    font-size: 16px;
+    line-height: 37px;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 25px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.title span:nth-of-type(1) {
+    width: 97px;
+    height: 37px;
+    margin-left: 47px;
+}
+
+.title span:nth-of-type(2) {
+    width: 65px;
+    height: 37px;
+}
+
+.title span:nth-of-type(3) {
+    width: 56px;
+    height: 37px;
+}
+
+.title p {
+    margin: 20px 0 0 78px;
+    font-size: 16px;
+}
+
+.title button {
+    width: 240px;
+    height: 50px;
+    font-size: 22px;
+    color: #fff;
+    background-color: #fe5341;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/*试用流程*/
+.process {
+    width: 100%;
+    height: 103px;
+    background-color: #f0f0f0;
+}
+
+.process ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.process ul li {
+    width: 50px;
+    height: 82px;
+    margin-left: 50px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.process ul li:nth-of-type(1) {
+    height: 52px;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: -40px;
+    border-left: 4px solid #fc0100;
+}
+
+.process ul li:nth-of-type(2) {
+    background: url("../img/use1.png") no-repeat 8px 18px;
+    border-bottom: 2px solid #fc0100;
+    line-height: 150px;
+}
+
+.process ul li:nth-of-type(3) {
+    background: url("../img/use2.png") no-repeat 8px 18px;
+    line-height: 150px;
+}
+
+.process ul li:nth-of-type(4) {
+    background: url("../img/use3.png") no-repeat 8px 18px;
+    line-height: 150px;
+}
+
+.process ul li:nth-of-type(5) {
+    background: url("../img/use4.png") no-repeat 8px 18px;
+    line-height: 150px;
+}
+
+.process ul li:nth-of-type(6) {
+    background: url("../img/use5.png") no-repeat 8px 18px;
+    line-height: 150px;
+}
+
+/*内容部分*/
+.content {
+    display: flex;
+    margin-top: 42px;
+}
+
+.content .left {
+    width: 700px;
+    height: 2240px;
+    margin-right: 33px;
+}
+
+.content .left h3 {
+    width: 93px;
+    height: 30px;
+    line-height: 33px;
+    text-indent: 5px;
+    font-size: 19px;
+    font-weight: 300;
+    border-left: 3px solid #fc0100;
+}
+
+.content .left h4 {
+    line-height: 33px;
+    font-size: 16px;
+    color: #fc0100;
+    margin-top: 24px;
+    /*font-weight: 300;*/
+}
+
+.content .left h2 {
+    font-size: 16px;
+    color: #2683c2;
+    font-weight: 500;
+    font-family: 黑体;
+    margin: 30px 0;
+}
+
+.content .left p {
+    font-size: 16px;
+    margin: 30px 0;
+    font-family: 宋体;
+}
+
+.content .left .blue {
+    color: rgb(27, 119, 164);
+}
+
+.bottom .bottom-title {
+    width: 100%;
+}
+
+.bottom .bottom-title span:nth-of-type(1) {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.bottom .bottom-title span:nth-of-type(2) {
+    font-size: 14px;
+    color: #ff5a2e;
+    float: right;
+    display: inline-block;
+    width: 78px;
+    background: url("../img/readMore.png") no-repeat 59px 5px;
+}
+
+.bottom ul {
+    overflow: hidden;
+}
+
+.bottom li {
+    width: 222px;
+    height: 288px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    border-radius: 8px;
+    background-color: #fff;
+    position: relative;
+    margin-left: 33px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    float: left;
+}
+
+.bottom li:first-of-type {
+    margin-left: 0;
+}
+
+.bottom li img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.bottom li h2 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.bottom li .con .gray {
+    width: 50px;
+    height: 25px;
+    border: 1px solid #CCCCCC;
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 13px;
+    margin-bottom: 14px;
+    font-size: 10px;
+    border-radius: 5px;
+    line-height: 25px;
+    color: #ccc;
+}
+
+.bottom li .con .red {
+    width: 50px;
+    height: 25px;
+    border: 1px solid #ff5a2e;
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 13px;
+    margin-bottom: 14px;
+    font-size: 10px;
+    border-radius: 5px;
+    line-height: 25px;
+    color: #ff5a2e;
+}
+
+.bottom li .other {
+    position: absolute;
+    top: -2px;
+    right: 0;
+
+}
+
+.bottom li .other .first {
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    background-color: #ff5a2e;
+    font-size: 12px;
+    line-height: 22px;
+    color: #fff;
+    border-radius: 0 5px 0 5px;
+}
+
+.bottom li .vip {
+    display: inline-block;
+    width: 75px;
+    height: 22px;
+    background-color: #FEF4CF;
+    font-size: 12px;
+    line-height: 22px;
+    color: #D1AD85;
+    border-radius: 0 5px 0 5px;
+}
+
+.bottom li .green {
+    width: 50px;
+    height: 25px;
+    border: 1px solid green;
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 13px;
+    margin-bottom: 14px;
+    font-size: 10px;
+    border-radius: 5px;
+    line-height: 25px;
+    color: green;
+}
+
+.bottom li .apply {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.bottom li .apply span {
+    color: #ff5a2e;
+}
+
+.bottom li .day {
+    font-size: 14px;
+}
+
+.bottom li .day span {
+    color: #ff5a2e;
+}
+
+.content .right {
+    width: 273px;
+    height: 920px;
+}
+
+.content .right h2 {
+    width: 105px;
+    height: 25px;
+    font-size: 18px;
+    font-weight: 300;
+    text-indent: 10px;
+    border-left: 3px solid #ff5a2e;
+}
+
+.content .right h1 {
+    font-weight: 400;
+    margin-top: 35px;
+    color: #ff5a2e;
+}
+
+.content .right button {
+    width: 270px;
+    height: 48px;
+    background-color: #ff5a2e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.content .right img{
+    margin: 15px 0 5px 0 ;
+}
+.content .right span {
+    display: inline-block;
+    font-size: 14px;
+    color: #ababab;
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+}
+.content .right p{
+    font-size: 14px;
+    color: #ababab;
+}
+.content .right strong{
+    display: inline-block;
+    margin: 10px 0;
+}

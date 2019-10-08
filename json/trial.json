@@ -1,0 +1,214 @@
+[
+  [
+    {
+      "img": "img/hot12.jpg",
+      "text": "巴慕达 The Toaster 烤面包机",
+      "num": 2032,
+      "people": 1350,
+      "tai": 20,
+      "day": "剩余时间2天",
+      "title": "首发",
+      "apply":1920
+    },
+    {
+      "img": "img/hot10.jpg",
+      "text": "Osprey小鹰户外运动专业腰包",
+      "num": 2032,
+      "people": 1350,
+      "tai": 20,
+      "day": "剩余时间2天",
+      "title": "首发",
+      "apply":1920,
+      "in":1
+    },
+    {
+      "img": "img/hot11.jpg",
+      "text": "Liquid Image 338 运动摄像眼睛",
+      "num": 2032,
+      "people": 1350,
+      "tai": 20,
+      "day": "剩余时间2天",
+      "title": "首发",
+      "out":1,
+      "apply": 752
+    },
+    {
+      "img": "img/hot9.jpg",
+      "text": "巴慕达 The Toaster 烤面包机",
+      "num": 2032,
+      "people": 1350,
+      "tai": 20,
+      "day": "剩余时间2天",
+      "title": "首发",
+      "apply":1920
+    },
+    {
+      "img": "img/hot12.jpg",
+      "text": "巴慕达 The Toaster 烤面包机",
+      "num": 2032,
+      "people": 1350,
+      "tai": 20,
+      "day": "剩余时间2天",
+      "title": "首发",
+      "apply": 965
+    },
+    {
+      "img": "img/hot10.jpg",
+      "text": "Osprey小鹰户外运动专业腰包",
+      "num": 2032,
+      "people": 1350,
+      "tai": 20,
+      "day": "剩余时间2天",
+      "vip": "体验师专享",
+      "apply":1920,
+      "out":1
+    },
+    {
+      "img": "img/hot11.jpg",
+      "text": "Liquid Image 338 运动摄像眼睛",
+      "num": 2032,
+      "people": 1350,
+      "tai": 20,
+      "day": "剩余时间2天",
+      "title": "首发",
+      "in":1,
+      "apply": 750
+    },
+    {
+      "img": "img/hot9.jpg",
+      "text": "巴慕达 The Toaster 烤面包机",
+      "num": 2032,
+      "people": 1350,
+      "tai": 20,
+      "day": "剩余时间2天",
+      "title": "首发",
+      "out":1,
+      "apply": 330
+    },
+    {
+      "img": "img/hot12.jpg",
+      "text": "巴慕达 The Toaster 烤面包机",
+      "num": 2032,
+      "people": 1350,
+      "tai": 20,
+      "day": "剩余时间2天",
+      "title": "首发",
+      "apply": 570
+    },
+    {
+      "img": "img/hot10.jpg",
+      "text": "Osprey小鹰户外运动专业腰包",
+      "num": 2032,
+      "people": 1350,
+      "tai": 20,
+      "day": "剩余时间2天",
+      "title": "首发",
+      "apply": 700
+    },
+    {
+      "img": "img/hot11.jpg",
+      "text": "Liquid Image 338 运动摄像眼睛",
+      "num": 2032,
+      "people": 1350,
+      "tai": 20,
+      "day": "体验报告8份",
+      "title": "首发",
+      "apply": 130
+    },
+    {
+      "img": "img/hot9.jpg",
+      "text": "巴慕达 The Toaster 烤面包机",
+      "num": 2032,
+      "people": 1350,
+      "tai": 20,
+      "day": "剩余时间2天",
+      "title": "首发",
+      "apply": 1000
+    }],
+    [{
+      "img": "img/hot12.jpg",
+      "text": "巴慕达 The Toaster 烤面包机",
+      "num": 2032,
+      "people": 1350,
+      "tai": 20,
+      "day": "剩余时间2天",
+      "title": "首发",
+      "apply": 3500
+    },
+    {
+      "img": "img/hot10.jpg",
+      "text": "Osprey小鹰户外运动专业腰包",
+      "num": 2032,
+      "people": 1350,
+      "tai": 20,
+      "day": "剩余时间2天",
+      "vip": "体验师专享",
+      "in":1,
+      "apply": 9999
+    },
+    {
+      "img": "img/hot11.jpg",
+      "text": "Liquid Image 338 运动摄像眼睛",
+      "num": 2032,
+      "people": 1350,
+      "tai": 20,
+      "day": "剩余时间2天",
+      "title": "首发"
+    },
+    {
+      "img": "img/hot9.jpg",
+      "text": "巴慕达 The Toaster 烤面包机",
+      "num": 2032,
+      "people": 1350,
+      "tai": 20,
+      "day": "剩余时间2天",
+      "title": "首发"
+    }],
+    [{
+      "img": "img/hot12.jpg",
+      "text": "巴慕达 The Toaster 烤面包机",
+      "num": 2032,
+      "people": 1350,
+      "tai": 20,
+      "day": "剩余时间2天",
+      "title": "首发",
+      "apply":1920
+    },
+    {
+      "img": "img/hot10.jpg",
+      "text": "Osprey小鹰户外运动专业腰包",
+      "num": 2032,
+      "people": 1350,
+      "tai": 20,
+      "day": "剩余时间2天",
+      "title": "首发",
+      "apply":35
+    },
+    {
+      "img": "img/hot11.jpg",
+      "text": "Liquid Image 338 运动摄像眼睛",
+      "num": 2032,
+      "people": 1350,
+      "tai": 20,
+      "day": "剩余时间2天",
+      "vip": "体验师专享"
+    },
+    {
+      "img": "img/hot9.jpg",
+      "text": "巴慕达 The Toaster 烤面包机",
+      "num": 2032,
+      "people": 1350,
+      "tai": 20,
+      "day": "剩余时间2天",
+      "vip": "体验师专享"
+    },
+  {
+    "img": "img/hot9.jpg",
+    "text": "巴慕达 The Toaster 烤面包机",
+    "num": 2032,
+    "people": 1350,
+    "tai": 20,
+    "day": "剩余时间2天",
+    "vip": "体验师专享"
+  }]
+  ]

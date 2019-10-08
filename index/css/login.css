@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    color:#333;
+    }
+button{
+    border: 0;
+ 
+    background-color: transparent;
+     
+    outline: none;
+    }
+header{
+    width: 100%;
+    height: 68px;
+    border-bottom: 1px solid #cccccc; 
+    /* background-color: pink; */
+}
+.container{
+    width: 1000px;
+    height: 68px;
+    margin: 0 auto;
+    /* background:skyblue; */
+}
+.logo_left{
+    width: 132px;
+    height: 68px;  
+    float: left; 
+    margin-top: 7px;
+}
+.index{
+    width: 490px;
+    height: 68px;
+    float: left;
+     margin-left: 15px;
+    /* background-color:pink; */
+    overflow: hidden;
+}
+.index>ul>a>li{
+    float: left;
+    width: 90px;
+    height: 32px;
+    font-size: 20px;
+    margin-top:29px 
+}
+.index>ul>a:first-child{
+    color: red;
+}
+.index>ul>a:hover{
+    color: red;
+    cursor: pointer;
+}
+.search{
+    width: 24px;
+    height: 26px;
+    float: left;
+    /* background-color: red; */
+    margin:25px 0 0 235px;
+    transition: all 1s;
+}
+.reg{
+    width: 52px;
+    height: 32px;
+    float: left;
+    /* background-color: red; */
+    margin:20px 0 0 50px;
+}
+.reg button{
+    width: 52px;
+    height: 32px;
+    border: 1px solid red;
+    border-radius: 3px;
+    color: red;   
+}
+.reg button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.6s;
+    background: orange;
+ 
+}
+/* ----------注册------------- */
+#login{
+    padding-bottom: 31px;
+    padding-top: 25px; 
+}
+#login .container{
+    width: 1000px;
+    height: 768px;
+    /* background-color: pink; */
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    position: relative;
+    
+}
+.title{
+    /* position: relative; */
+    padding: 20px 0 20px 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.red{
+    width: 6px;
+    height: 20px;
+    background: #fe5341;
+    position: absolute;
+    left: -1px;
+    top:25px;
+}
+.form{
+width: 400px;
+margin: 0 auto;
+margin: 50px auto 150px;
+
+}
+.form input{
+    height: 50px;
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px #eee solid;
+    border-radius: 10px;
+    background-color: #F7F7F7;
+}
+.form p:nth-child(2) input,.form p:nth-child(3) input{
+    width: 245px;
+
+}
+form p:nth-child(3) .one{
+        display: block;
+        box-sizing: border-box;
+        width: 132px;
+        height: 50px;
+        line-height: 50px;
+        border: 1px #a3a3a3 solid;
+        border-radius: 10px;
+        font-size: 16px;
+        text-align: center;
+        color: #A3A3A3
+}
+
+.form p{
+    margin-top: 25px;
+}
+.first{
+    position: relative;
+}
+.one{
+    position: absolute;
+    left: 570px;
+    top: 270px;
+}
+.two{
+    position: absolute;
+    left: 570px;
+    top: 210px; 
+}
+
+.form button {
+    border: medium none;
+    width: 100%;
+    cursor: pointer;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #fe5341;
+    color: #fff;
+}
+
+
+/* ---------脚注------------- */
+
+footer{
+    width: 100%;
+    height: 360px;
+    background-color: #505050;
+    padding: 40px 0 15px 0; 
+    box-sizing: border-box;
+    overflow: hidden;
+ }
+  footer .container{
+     width: 1000px;
+     height: 360px;
+     /* background: red; */
+    
+ }
+ .QR{
+     float: left;
+ }
+ .foot{
+     width: 1000px;
+     height: 360px;
+     /* background: pink;   */
+  
+ }
+ .foot a {
+     color: #a3a3a3;
+     font-size: 13px;
+ }
+ .fix{
+     width: 1000px;
+     height: 205px;
+ }
+ dl{
+     float: left;
+     padding-left: 22px;
+     line-height: 20px;
+     color: #a3a3a3;
+     padding-bottom: 25px;
+ 
+ }
+ 
+ dd{
+     width: 146px;
+     /* height: 40px; */
+     font-size: 13px;
+ }
+ .dd{
+     margin-top: 13px;
+     /* color: aliceblue */    
+ }
+ dt{
+     height: 45px;
+     padding: 0px 0px 15px;
+     color: #F7F7F7;
+ }
+ dt:hover{
+     cursor: pointer;
+ }
+ .dd1{
+     width: 180px;
+ }
+ .comp{
+     text-align: center;
+     padding-top: 80px;
+     font-size: 13px;
+     color: #a3a3a3;
+ }
